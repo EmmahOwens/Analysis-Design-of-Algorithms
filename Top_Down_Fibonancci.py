@@ -10,4 +10,4 @@ def fib(n, memo = None):
 
     return memo[n]
 result = fib(5)
-print("Fibonacci number at position 5 is :", result)
+print("Fibonacci number at position 5 is ", result)

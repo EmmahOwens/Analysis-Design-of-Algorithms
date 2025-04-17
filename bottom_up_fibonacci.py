@@ -12,4 +12,4 @@ def bottom_up_fibonacci(n):
 
     return curr
 result = bottom_up_fibonacci(5)
-print("Fibonacci number at position 5 is :", result)
+print("Fibonacci number at position 5 is ", result)
