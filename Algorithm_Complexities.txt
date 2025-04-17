@@ -1,0 +1,19 @@
+# Algorithm Time and Space Complexities
+
+| Algorithm                   | Time Complexity       | Space Complexity     |
+|-----------------------------|-----------------------|----------------------|
+| Matrix Chain Multiplication | O(n³)                 | O(n²)                |
+| Top-Down Fibonacci          | O(n)                  | O(n)                 |
+| Bottom-Up Fibonacci         | O(n)                  | O(1)                 |
+| Longest Common Subsequence  | O(mn)                 | O(mn)                |
+| Knapsack                    | O(nW)                 | O(nW)                |
+| Coin Change                 | O(nA)                 | O(A)                 |
+
+Where:
+- n = number of matrices in Matrix Chain Multiplication
+- n = input number in Fibonacci algorithms
+- m, n = lengths of the two strings in LCS 
+- n = number of items in Knapsack 
+- W = maximum weight capacity in Knapsack
+- A = target amount in Coin Change
+- n = number of coin denominations in Coin Change
